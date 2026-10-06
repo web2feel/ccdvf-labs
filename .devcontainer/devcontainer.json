@@ -1,0 +1,19 @@
+{
+  "name": "CCDV-F Labs",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+  "postCreateCommand": "npm install",
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "Your Claude API key (starts with sk-ant-). Create one in the Claude Console under API Keys.",
+      "documentationUrl": "https://platform.claude.com/docs/en/get-api-key"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}

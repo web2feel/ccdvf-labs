@@ -1,0 +1,20 @@
+{
+  "name": "ccdvf-labs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hands-on TypeScript labs for the CCDV-F study plan (Claude Certified Developer – Foundations).",
+  "scripts": {
+    "lab": "tsx --env-file-if-exists=.env"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
